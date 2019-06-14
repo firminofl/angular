@@ -10,7 +10,6 @@ import { MenuItem } from '../menu-item/menu-item.model';
 })
 export class MenuComponent implements OnInit {
 
-
   menu: Observable<MenuItem>
 
   constructor(
